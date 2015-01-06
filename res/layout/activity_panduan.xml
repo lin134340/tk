@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@id/panduan_row1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@id/btn_panduan_prev"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:text="@string/str_prev" />
+
+            <Button
+                android:id="@id/btn_panduan_goto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/str_goto" />
+
+            <Button
+                android:id="@id/btn_panduan_next"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/str_next" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="15.0dip" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="15.0dip" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/panduan_row2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@id/text_panduan_question"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="10"
+                android:paddingLeft="5.0dip"
+                android:text="@string/hello_world"
+                android:textSize="20.0sp" />
+        </TableRow>
+
+        <RadioGroup
+            android:id="@id/rg_panduan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip" >
+
+            <RadioButton
+                android:id="@id/radio_panduan_a"
+                android:text="@string/str_right" />
+
+            <RadioButton
+                android:id="@id/radio_panduan_b"
+                android:text="@string/str_wrong" />
+        </RadioGroup>
+
+        <TableRow
+            android:id="@id/panduan_row4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@id/text_panduan_answer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="10"
+                android:paddingLeft="5.0dip"
+                android:textSize="20.0sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/panduan_row5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@id/btn_panduan_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:layout_weight="1.0"
+                android:text="@string/str_hits" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@id/table_jisuan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@id/jisuan_row1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@id/btn_jisuan_prev"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:text="@string/str_prev" />
+
+            <Button
+                android:id="@id/btn_jisuan_goto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/str_goto" />
+
+            <Button
+                android:id="@id/btn_jisuan_next"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/str_next" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="15.0dip" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="15.0dip" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/jisuan_row2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@id/text_jisuan_question"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="10"
+                android:paddingLeft="5.0dip"
+                android:text="@string/hello_world"
+                android:textSize="20.0sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@id/image_jisuan_question"
+                android:layout_span="10"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image"
+                android:scaleType="centerInside" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5.0dip" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/jisuan_row4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@id/text_jisuan_answer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="10"
+                android:paddingLeft="5.0dip"
+                android:textSize="20.0sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@id/image_jisuan_answer"
+                android:layout_span="10"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image"
+                android:scaleType="centerInside" />
+        </TableRow>
+
+        <TableRow
+            android:id="@id/jisuan_row5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@id/btn_jisuan_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="6"
+                android:layout_weight="1.0"
+                android:text="@string/str_hits" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

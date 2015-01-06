@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">信检题库</string>
+    <string name="title_activity_danxuan">单选题</string>
+    <string name="title_activity_duoxuan">多选题</string>
+    <string name="title_activity_tiankong">填空题</string>
+    <string name="title_activity_panduan">判断题</string>
+    <string name="title_activity_jianda">简答题</string>
+    <string name="title_activity_jisuan">计算题</string>
+    <string name="title_activity_tuxiang">图像题</string>
+    <string name="title_activity_lunshu">论述题</string>
+    <string name="db_zhuanye">专业技能题库</string>
+    <string name="db_zhuying">主营业务题库</string>
+    <string name="db_jiben">基本技能题库</string>
+    <string name="db_qiye">企业文化题库</string>
+    <string name="db_suzhi">素质课程题库</string>
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    <string name="action_seldb">选择题库</string>
+    <string name="str_exit">退出</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_introduction" />
+    <string name="image" />
+    <string name="str_danxuan">单选题</string>
+    <string name="str_duoxuan">多选题</string>
+    <string name="str_tiankong">填空题</string>
+    <string name="str_panduan">判断题</string>
+    <string name="str_jianda">简答题</string>
+    <string name="str_jisuan">计算题</string>
+    <string name="str_tuxiang">图像题</string>
+    <string name="str_lunshu">论述题</string>
+    <string name="str_order">顺序复习</string>
+    <string name="str_random">随机出题</string>
+    <string name="str_search">试题搜索</string>
+    <string name="str_a">A</string>
+    <string name="str_b">B</string>
+    <string name="str_c">C</string>
+    <string name="str_d">D</string>
+    <string name="str_answer_prefix">答案：</string>
+    <string name="str_right">√</string>
+    <string name="str_wrong">×</string>
+    <string name="str_submit">提交答案</string>
+    <string name="str_hits">显示答案</string>
+    <string name="str_prev">上一题</string>
+    <string name="str_next">下一题</string>
+    <string name="str_back">回目录</string>
+    <string name="str_goto">转到</string>
+    <string name="str_goto_number">请输入跳转的题号：1-</string>
+    <string name="str_confirm">确定</string>
+    <string name="str_goto_error">跳转过程发生错误！</string>
+    <string name="str_goto_wrong_number">您输入的题号有误！</string>
+    <string name="str_right_answer">回答正确</string>
+    <string name="str_wrong_answer">回答错误</string>
+    <string name="str_blank_answer">请选择答案</string>
+    <string name="str_nomore_prev">已经是第一道题了，不能再向前了！</string>
+    <string name="str_nomore_next">已经是最后一道题了，不能继续了！</string>
+
+</resources>
